@@ -8,7 +8,7 @@ GET https://pratikbane.github.io/waweebhook/webhooks?
   POST / HTTPS/1.1
 Host: pratikbane.github.io/waweebhook/webhooks
 Content-Type: application/json
-X-Hub-Signature: sha256={super-long-SHA256-signature}
+X-Hub-Signature: sha1={super-long-SHA1-signature}
 Content-Length: 311
 
 {
