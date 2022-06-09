@@ -1,12 +1,12 @@
 <?php
 
-GET https://github.com/PratikBane/webhooks?
+GET https://pratikbane.github.io/waweebhook/webhooks?
   hub.mode=subscribe&
   hub.challenge=1158201444&
   hub.verify_token=verifymewebhook
 
   POST / HTTPS/1.1
-Host: github.com/PratikBane/webhooks
+Host: pratikbane.github.io/waweebhook/webhooks
 Content-Type: application/json
 X-Hub-Signature: sha256={super-long-SHA256-signature}
 Content-Length: 311
